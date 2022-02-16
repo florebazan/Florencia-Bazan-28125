@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.galeria{
+    width: 100%;
+    background-color: #ff8800;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 25px;
+}
+.galeria h1{
+    font-family: 'Sacramento', cursive;
+    font-size: 170px;
+    color: white;
+    text-align: center;
+    padding-bottom: 100px;
+    padding-top: 30px;
+    letter-spacing: 1px;
+    animation-duration: 2s;
+    animation-name: aparecer;
+
+}
+
+@keyframes aparecer{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.contenedor{
+    width: 90%;
+    height: auto;
+    background-color:#f88604;
+    display: grid;
+    border: 20px solid #ffc300;
+}
+
+.item{
+    min-height: 200px;
+    min-width: 200px;
+    background-color: #ffc300;
+    border: 2px solid #fff;
+}
+.item:hover{
+    transform: scale(1.2);
+    transition: 0.7s;
+    filter: sepia(1);
+}
+
+.item1{
+
+    background-color: #ffc300;
+    grid-row: 1/3;
+    grid-column: 1/2;    
+    background-image: url(/Imagenes/Tipografias/Con\ Serif.jpg);
+    background-size:contain;
+    background-position: center;
+    background-repeat: no;
+}
+.item2{
+    grid-area: "item2";
+    background-color: #ffc300;
+    background-image: url(/Imagenes/Tipografias/ac876b79541ea201315f081285fdc922.jpg);
+    }
+
+.item3{
+    grid-area: "item3";
+    background-color: #ffc300;    
+    grid-column: 3/5;
+    background-image: url(/Imagenes/Tipografias/Modernas.jpg);
+    background-size: cover;
+}
+.item4{
+    grid-area: "item4";
+    background-color: #ffc300;
+    grid-row: 2/4;
+    background-image: url(/Imagenes/Tipografias/Condensadas.jpg);
+    background-size: contain;
+}
+.item5{
+    grid-area: "item5";
+    background-color: #ffc300;
+    background-image: url(/Imagenes/Tipografias/Display.jpg);
+    background-size: contain;
+}
+.item6{
+    grid-area: "item6";
+    background-color: #ffc300;
+    background-image: url(/Imagenes/Tipografias/Script.jpg);
+    background-size: cover;
+}
+.item7{
+    grid-area: "item7";
+    background-color: #ffc300;
+    background-image: url(/Imagenes/Tipografias/8af6c285c246217e92194146c4c4b09e.jpg);
+    background-size: contain;
+}
+.item8{
+    grid-area: "item8";
+    background-color: #ffc300;
+    grid-column: 3/5;
+    background-image: url(/Imagenes/Tipografias/Rounded.jpg);
+    background-size: cover;
+}
+

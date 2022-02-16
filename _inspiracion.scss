@@ -1,0 +1,70 @@
+.tituloInicial{font-family: 'Bungee', cursive;
+    font-family: 'Sacramento', cursive;
+    font-family: 'Share Tech Mono', monospace;   
+    font-size: 100px;
+}
+.subtitulo{
+    font-family: 'Bungee', cursive;
+    font-size: medium;
+    background-color: black;
+}
+
+.subtitulo1{
+    font-family: 'Bungee', cursive;
+    font-size: medium;
+}
+@for $in from 1 through 6 {
+    .bucle-#{$in} {
+        width: 900px;
+        height: 400px;
+        background-color: purple;
+        border: 2px solid #333;
+        text-align: center;
+        font-size: 25px;
+        padding: 30px;
+        font-family: "Share Tech Mono", monospace;
+        text-justify: auto;
+        color: white;
+    }
+    h3{
+        text-align: center;
+        text-decoration:overline;
+        font-size: 30px;
+        padding-top: 5px;
+        font-family: 'Share Tech Mono', monospace;
+    }
+}
+
+@for $in from 1 to 5 {
+    .bucle-#{$in} {
+        background-color: lighten(purple, $in * 9%);
+    }
+    
+}
+
+.datosContacto{
+
+    padding: 20px;
+    margin-bottom: 2px;
+    text-align: right;
+    text-decoration: underline overline;
+    font-family: "Share Tech Mono", monospace;
+}
+
+.datosPersonales{
+    padding: 10px;
+    text-align: right;
+    font-family: 'Sacramento', cursive;
+    font-family: 'Share Tech Mono', monospace;   
+    font-size: 25px;
+}
+
+
+.contenedor1{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+flex-direction: row;
+padding: 50px;
+
+}

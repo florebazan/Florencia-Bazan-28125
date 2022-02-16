@@ -1,0 +1,23 @@
+.tituloInicial{font-family: 'Bungee', cursive;
+    font-family: 'Sacramento', cursive;
+    font-family: 'Share Tech Mono', monospace;   
+    font-size: 100px;
+}
+.subtitulo{
+    font-family: 'Bungee', cursive;
+    font-size: medium;
+    background-color: black;
+}
+
+.inputContacto {
+    display: block;
+    font-family: 'Economica', sans-serif;
+}
+
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    font-family: 'Economica', sans-serif;
+}

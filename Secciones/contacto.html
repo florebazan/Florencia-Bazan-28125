@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="/estilos.css">
+    <meta name="keywords" content="Diseño grafico, contacto, comunidad, estudiantes">
+    <title>Contacta con otros estudiantes de diseño Grafico</title>
+</head>
+<body>
+<!-- Este es el area de contacto donde se aplican forms -->
+
+<nav class="navbar navbar-expand-md bg-dark navbar-dark navegador">
+    <!-- Brand -->
+    <a class="navbar-brand navegador__logo" href="/Secciones/index.html">DG</a>
+
+    <!-- Toggler/collapsibe Button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- Navbar links -->
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav navegador__barra">
+        <li class="nav-item">
+        <a class="nav-link" href="/Secciones/donde estudiar.html">Donde estudiar</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="/Secciones/Galeria.html">Galeria de ideas</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="/Secciones/noticias.html">Noticias</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="/Secciones/inspiracion.html">Inspiracion</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="/Secciones/contacto.html">Contacto</a>
+        </li>
+    </ul>
+    </div>
+</nav>
+
+
+    <h1 class="tituloInicial">CONTÁCTANOS</h1>
+    <h2 class="subtitulo" >Envianos tu consulta</h2>
+
+    <div class="form">
+        <form action="Enviar.php">
+            <label class="label1"> Nombre</label><input class="inputContacto" type="nombre">
+            <label class="label1"> Email</label><input class="inputContacto" type="mail">
+            <label class="label1">Fecha</label><input class="inputContacto" type="date" required>
+            <label class="label1">Localidad</label><input class="inputContacto" type="text" required>
+            <label class="label1">Telefono</label><input class="inputContacto" type="number" required placeholder="Indicanos tu Telefono">
+            <label class="label1">Envia tu consulta</label><textarea class="inputContacto" name="Area de texto" cols="50" rows="5" placeholder="Escribe aqui tu consulta"></textarea>
+            <input type="submit" value="Enviar">
+            <input type="Reset" value="Borrar">
+        
+            <h2 class="subtitulo1">Donde me encuentro</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d217954.93300094956!2d-64.33408437326777!3d-31.39908435566079!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432985f478f5b69%3A0xb0a24f9a5366b092!2sC%C3%B3rdoba%2C%20Cordoba!5e0!3m2!1sen!2sar!4v1640777659329!5m2!1sen!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </form>
+
+    </div>
+
+    <div>
+        <h2 class="datosContacto">Aprendiendo DG</h2>
+        <ul class="datosPersonales">flor.bazan77@gmail.com</ul>
+        <ul class="datosPersonales"> +11 03541 15636642</ul>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>    
+</body>
+</html>

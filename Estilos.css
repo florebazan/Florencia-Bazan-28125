@@ -1,0 +1,477 @@
+@import url("https://fonts.googleapis.com/css2?family=Bangers&family=Lobster&family=Patrick+Hand&family=Sacramento&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sacramento&family=Share+Tech+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bungee&family=Sacramento&family=Share+Tech+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bungee&family=Sacramento&family=Share+Tech+Mono&display=swap");
+nav {
+  font-family: "Share Tech Mono", monospace;
+  font-size: 15px;
+}
+
+h1 {
+  font-family: "Sacramento", cursive;
+  font-size: 150px;
+  color: white;
+  text-align: center;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+h2 {
+  font-family: "Sacramento", cursive;
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+nav {
+  font-family: "Share Tech Mono", monospace;
+  font-size: 15px;
+}
+
+.tituloInicial {
+  font-family: "Bungee", cursive;
+  font-family: "Sacramento", cursive;
+  font-family: "Share Tech Mono", monospace;
+  font-size: 100px;
+}
+
+.subtitulo {
+  font-family: "Bungee", cursive;
+  font-size: medium;
+  background-color: black;
+}
+
+.subtitulo1 {
+  font-family: "Bungee", cursive;
+  font-size: medium;
+}
+
+.bucle-1 {
+  width: 900px;
+  height: 400px;
+  background-color: purple;
+  border: 2px solid #333;
+  text-align: center;
+  font-size: 25px;
+  padding: 30px;
+  font-family: "Share Tech Mono", monospace;
+  text-justify: auto;
+  color: white;
+}
+
+h3 {
+  text-align: center;
+  text-decoration: overline;
+  font-size: 30px;
+  padding-top: 5px;
+  font-family: "Share Tech Mono", monospace;
+}
+
+.bucle-2 {
+  width: 900px;
+  height: 400px;
+  background-color: purple;
+  border: 2px solid #333;
+  text-align: center;
+  font-size: 25px;
+  padding: 30px;
+  font-family: "Share Tech Mono", monospace;
+  text-justify: auto;
+  color: white;
+}
+
+h3 {
+  text-align: center;
+  text-decoration: overline;
+  font-size: 30px;
+  padding-top: 5px;
+  font-family: "Share Tech Mono", monospace;
+}
+
+.bucle-3 {
+  width: 900px;
+  height: 400px;
+  background-color: purple;
+  border: 2px solid #333;
+  text-align: center;
+  font-size: 25px;
+  padding: 30px;
+  font-family: "Share Tech Mono", monospace;
+  text-justify: auto;
+  color: white;
+}
+
+h3 {
+  text-align: center;
+  text-decoration: overline;
+  font-size: 30px;
+  padding-top: 5px;
+  font-family: "Share Tech Mono", monospace;
+}
+
+.bucle-4 {
+  width: 900px;
+  height: 400px;
+  background-color: purple;
+  border: 2px solid #333;
+  text-align: center;
+  font-size: 25px;
+  padding: 30px;
+  font-family: "Share Tech Mono", monospace;
+  text-justify: auto;
+  color: white;
+}
+
+h3 {
+  text-align: center;
+  text-decoration: overline;
+  font-size: 30px;
+  padding-top: 5px;
+  font-family: "Share Tech Mono", monospace;
+}
+
+.bucle-5 {
+  width: 900px;
+  height: 400px;
+  background-color: purple;
+  border: 2px solid #333;
+  text-align: center;
+  font-size: 25px;
+  padding: 30px;
+  font-family: "Share Tech Mono", monospace;
+  text-justify: auto;
+  color: white;
+}
+
+h3 {
+  text-align: center;
+  text-decoration: overline;
+  font-size: 30px;
+  padding-top: 5px;
+  font-family: "Share Tech Mono", monospace;
+}
+
+.bucle-6 {
+  width: 900px;
+  height: 400px;
+  background-color: purple;
+  border: 2px solid #333;
+  text-align: center;
+  font-size: 25px;
+  padding: 30px;
+  font-family: "Share Tech Mono", monospace;
+  text-justify: auto;
+  color: white;
+}
+
+h3 {
+  text-align: center;
+  text-decoration: overline;
+  font-size: 30px;
+  padding-top: 5px;
+  font-family: "Share Tech Mono", monospace;
+}
+
+.bucle-1 {
+  background-color: #ae00ae;
+}
+
+.bucle-2 {
+  background-color: #dc00dc;
+}
+
+.bucle-3 {
+  background-color: #ff0bff;
+}
+
+.bucle-4 {
+  background-color: #ff39ff;
+}
+
+.datosContacto {
+  padding: 20px;
+  margin-bottom: 2px;
+  text-align: right;
+  text-decoration: underline overline;
+  font-family: "Share Tech Mono", monospace;
+}
+
+.datosPersonales {
+  padding: 10px;
+  text-align: right;
+  font-family: "Sacramento", cursive;
+  font-family: "Share Tech Mono", monospace;
+  font-size: 25px;
+}
+
+.contenedor1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+  padding: 50px;
+}
+
+.enMantenimiento {
+  padding-top: 100px;
+  font-family: "Bungee", cursive;
+  font-size: 70px;
+  font-size: 200px;
+  text-align: center;
+}
+
+.caja__titulo {
+  font-family: "Bungee", cursive;
+  font-size: 70px;
+}
+
+.tituloDonde {
+  font-family: "Bungee", cursive;
+  font-family: "Sacramento", cursive;
+  font-family: "Share Tech Mono", monospace;
+  font-size: 100px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.galeria {
+  width: 100%;
+  background-color: #ff8800;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 25px;
+}
+
+.galeria h1 {
+  font-family: "Sacramento", cursive;
+  font-size: 170px;
+  color: white;
+  text-align: center;
+  padding-bottom: 100px;
+  padding-top: 30px;
+  letter-spacing: 1px;
+  animation-duration: 2s;
+  animation-name: aparecer;
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.contenedor {
+  width: 90%;
+  height: auto;
+  background-color: #f88604;
+  display: grid;
+  border: 20px solid #ffc300;
+}
+
+.item {
+  min-height: 200px;
+  min-width: 200px;
+  background-color: #ffc300;
+  border: 2px solid #fff;
+}
+
+.item:hover {
+  transform: scale(1.2);
+  transition: 0.7s;
+  filter: sepia(1);
+}
+
+.item1 {
+  background-color: #ffc300;
+  grid-row: 1/3;
+  grid-column: 1/2;
+  background-image: url(/Imagenes/Tipografias/Con\ Serif.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no;
+}
+
+.item2 {
+  grid-area: "item2";
+  background-color: #ffc300;
+  background-image: url(/Imagenes/Tipografias/ac876b79541ea201315f081285fdc922.jpg);
+}
+
+.item3 {
+  grid-area: "item3";
+  background-color: #ffc300;
+  grid-column: 3/5;
+  background-image: url(/Imagenes/Tipografias/Modernas.jpg);
+  background-size: cover;
+}
+
+.item4 {
+  grid-area: "item4";
+  background-color: #ffc300;
+  grid-row: 2/4;
+  background-image: url(/Imagenes/Tipografias/Condensadas.jpg);
+  background-size: contain;
+}
+
+.item5 {
+  grid-area: "item5";
+  background-color: #ffc300;
+  background-image: url(/Imagenes/Tipografias/Display.jpg);
+  background-size: contain;
+}
+
+.item6 {
+  grid-area: "item6";
+  background-color: #ffc300;
+  background-image: url(/Imagenes/Tipografias/Script.jpg);
+  background-size: cover;
+}
+
+.item7 {
+  grid-area: "item7";
+  background-color: #ffc300;
+  background-image: url(/Imagenes/Tipografias/8af6c285c246217e92194146c4c4b09e.jpg);
+  background-size: contain;
+}
+
+.item8 {
+  grid-area: "item8";
+  background-color: #ffc300;
+  grid-column: 3/5;
+  background-image: url(/Imagenes/Tipografias/Rounded.jpg);
+  background-size: cover;
+}
+
+.tituloInicial {
+  font-family: "Bungee", cursive;
+  font-family: "Sacramento", cursive;
+  font-family: "Share Tech Mono", monospace;
+  font-size: 100px;
+}
+
+.subtitulo {
+  font-family: "Bungee", cursive;
+  font-size: medium;
+  background-color: black;
+}
+
+.inputContacto {
+  display: block;
+  font-family: "Economica", sans-serif;
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+  font-family: "Economica", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ff8800;
+}
+
+.sec {
+  width: 100%;
+  text-align: center;
+  padding: 300px;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+h1 {
+  font-family: "Sacramento", cursive;
+  font-size: 250px;
+  color: white;
+  text-align: center;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+h2 {
+  font-family: "Sacramento", cursive;
+  font-size: 70px;
+  color: white;
+  text-align: center;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.carousel-indicators li {
+  height: 30px;
+  width: 30px;
+  border-radius: 20px;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+
+.btn-success {
+  background-color: #571845;
+}
+
+.btn-success:hover {
+  background-color: black;
+}
+
+.sec2 {
+  text-align: justify;
+  font-family: "Share Tech Mono", monospace;
+  font-size: 20px;
+  padding: 20px;
+  color: blanchedalmond;
+}
+
+.sec3 {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.divisor {
+  height: 50px;
+}
+
+.badge {
+  font-family: "Share Tech Mono", monospace;
+}
+
+#modal {
+  background-color: #C70039;
+  font-family: "Share Tech Mono", monospace;
+  text-align: center;
+}
+
+.modal-header {
+  font-family: "Bungee", cursive;
+  background-color: #ffc300;
+  text-align: center;
+}
+
+.modal-body {
+  font-family: "Bungee", cursive;
+  text-align: center;
+  background-color: #571845;
+  color: #f0ebeb;
+}
+
+/*No hubo forma que cuando pongo la variable, me la reconozca, se rompe toda la pagina, no se que hice mal*/
+
+/*# sourceMappingURL=estilos.css.map */
