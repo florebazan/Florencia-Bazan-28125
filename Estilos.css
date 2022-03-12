@@ -34,7 +34,7 @@ nav {
   font-family: "Bungee", cursive;
   font-family: "Sacramento", cursive;
   font-family: "Share Tech Mono", monospace;
-  font-size: 100px;
+  font-size: 4em;
 }
 
 .subtitulo {
@@ -190,22 +190,6 @@ h3 {
   background-color: #ff39ff;
 }
 
-.datosContacto {
-  padding: 20px;
-  margin-bottom: 2px;
-  text-align: right;
-  text-decoration: underline overline;
-  font-family: "Share Tech Mono", monospace;
-}
-
-.datosPersonales {
-  padding: 10px;
-  text-align: right;
-  font-family: "Sacramento", cursive;
-  font-family: "Share Tech Mono", monospace;
-  font-size: 25px;
-}
-
 .contenedor1 {
   display: flex;
   flex-wrap: wrap;
@@ -224,14 +208,14 @@ h3 {
 
 .caja__titulo {
   font-family: "Bungee", cursive;
-  font-size: 70px;
+  font-size: 3em;
 }
 
 .tituloDonde {
   font-family: "Bungee", cursive;
   font-family: "Sacramento", cursive;
   font-family: "Share Tech Mono", monospace;
-  font-size: 100px;
+  font-size: 5em;
 }
 
 * {
@@ -250,8 +234,8 @@ h3 {
 }
 
 .galeria h1 {
-  font-family: "Sacramento", cursive;
-  font-size: 170px;
+  font-family: "Bungee", cursive;
+  font-size: 5em;
   color: white;
   text-align: center;
   padding-bottom: 100px;
@@ -355,7 +339,7 @@ h3 {
   font-family: "Bungee", cursive;
   font-family: "Sacramento", cursive;
   font-family: "Share Tech Mono", monospace;
-  font-size: 100px;
+  font-size: 10em;
 }
 
 .subtitulo {
@@ -390,14 +374,19 @@ body {
 .sec {
   width: 100%;
   text-align: center;
-  padding: 300px;
+  padding: 0px 5%;
   padding-top: 20px;
   padding-bottom: 50px;
 }
 
+@media only screen and (min-width: 1068px) {
+  .sec {
+    padding: 0px 20%;
+  }
+}
 h1 {
-  font-family: "Sacramento", cursive;
-  font-size: 250px;
+  font-family: "Bungee", cursive;
+  font-size: 5em;
   color: white;
   text-align: center;
   padding-bottom: 30px;
@@ -406,7 +395,7 @@ h1 {
 
 h2 {
   font-family: "Sacramento", cursive;
-  font-size: 70px;
+  font-size: 3em;
   color: white;
   text-align: center;
   padding-bottom: 30px;
@@ -470,6 +459,18 @@ h2 {
   text-align: center;
   background-color: #571845;
   color: #f0ebeb;
+}
+
+footer {
+  background-color: #ffc300;
+  color: #571845;
+  font-family: "Bungee", cursive;
+  border: solid 2em;
+}
+
+p {
+  text-align: center;
+  font-family: "Share Tech Mono", monospace;
 }
 
 /*No hubo forma que cuando pongo la variable, me la reconozca, se rompe toda la pagina, no se que hice mal*/

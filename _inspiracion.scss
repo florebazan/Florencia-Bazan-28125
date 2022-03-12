@@ -1,7 +1,7 @@
 .tituloInicial{font-family: 'Bungee', cursive;
     font-family: 'Sacramento', cursive;
     font-family: 'Share Tech Mono', monospace;   
-    font-size: 100px;
+    font-size: 4em;
 }
 .subtitulo{
     font-family: 'Bungee', cursive;
@@ -40,23 +40,6 @@
         background-color: lighten(purple, $in * 9%);
     }
     
-}
-
-.datosContacto{
-
-    padding: 20px;
-    margin-bottom: 2px;
-    text-align: right;
-    text-decoration: underline overline;
-    font-family: "Share Tech Mono", monospace;
-}
-
-.datosPersonales{
-    padding: 10px;
-    text-align: right;
-    font-family: 'Sacramento', cursive;
-    font-family: 'Share Tech Mono', monospace;   
-    font-size: 25px;
 }
 
 
