@@ -34,7 +34,7 @@ nav {
   font-family: "Bungee", cursive;
   font-family: "Sacramento", cursive;
   font-family: "Share Tech Mono", monospace;
-  font-size: 4em;
+  font-size: 4vw;
 }
 
 .subtitulo {
@@ -54,8 +54,8 @@ nav {
   background-color: purple;
   border: 2px solid #333;
   text-align: center;
-  font-size: 25px;
-  padding: 30px;
+  font-size: 1.3vw;
+  padding: 5%;
   font-family: "Share Tech Mono", monospace;
   text-justify: auto;
   color: white;
@@ -75,8 +75,8 @@ h3 {
   background-color: purple;
   border: 2px solid #333;
   text-align: center;
-  font-size: 25px;
-  padding: 30px;
+  font-size: 1.3vw;
+  padding: 5%;
   font-family: "Share Tech Mono", monospace;
   text-justify: auto;
   color: white;
@@ -96,8 +96,8 @@ h3 {
   background-color: purple;
   border: 2px solid #333;
   text-align: center;
-  font-size: 25px;
-  padding: 30px;
+  font-size: 1.3vw;
+  padding: 5%;
   font-family: "Share Tech Mono", monospace;
   text-justify: auto;
   color: white;
@@ -117,8 +117,8 @@ h3 {
   background-color: purple;
   border: 2px solid #333;
   text-align: center;
-  font-size: 25px;
-  padding: 30px;
+  font-size: 1.3vw;
+  padding: 5%;
   font-family: "Share Tech Mono", monospace;
   text-justify: auto;
   color: white;
@@ -138,8 +138,8 @@ h3 {
   background-color: purple;
   border: 2px solid #333;
   text-align: center;
-  font-size: 25px;
-  padding: 30px;
+  font-size: 1.3vw;
+  padding: 5%;
   font-family: "Share Tech Mono", monospace;
   text-justify: auto;
   color: white;
@@ -159,8 +159,8 @@ h3 {
   background-color: purple;
   border: 2px solid #333;
   text-align: center;
-  font-size: 25px;
-  padding: 30px;
+  font-size: 1.3vw;
+  padding: 5%;
   font-family: "Share Tech Mono", monospace;
   text-justify: auto;
   color: white;

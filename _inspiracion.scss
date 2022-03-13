@@ -1,7 +1,7 @@
 .tituloInicial{font-family: 'Bungee', cursive;
     font-family: 'Sacramento', cursive;
     font-family: 'Share Tech Mono', monospace;   
-    font-size: 4em;
+    font-size: 4vw;
 }
 .subtitulo{
     font-family: 'Bungee', cursive;
@@ -13,6 +13,10 @@
     font-family: 'Bungee', cursive;
     font-size: medium;
 }
+
+
+
+
 @for $in from 1 through 6 {
     .bucle-#{$in} {
         width: 900px;
@@ -20,8 +24,8 @@
         background-color: purple;
         border: 2px solid #333;
         text-align: center;
-        font-size: 25px;
-        padding: 30px;
+        font-size: 1.3vw;
+        padding: 5%;
         font-family: "Share Tech Mono", monospace;
         text-justify: auto;
         color: white;
@@ -51,3 +55,4 @@ flex-direction: row;
 padding: 50px;
 
 }
+
